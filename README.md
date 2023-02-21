@@ -2,6 +2,8 @@
 
 ![coverage](/.github/badges/branches.svg)
 ![coverage](/.github/badges/jacoco.svg)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=filypsdias-personal-projects-devops-java-infra&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=filypsdias-personal-projects-devops-java-infra)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=filypsdias-personal-projects-devops-java-infra&metric=bugs)](https://sonarcloud.io/summary/new_code?id=filypsdias-personal-projects-devops-java-infra)
 
 DevOps Architecture Templates for Java Apps
 Basic DevOps Operations:
