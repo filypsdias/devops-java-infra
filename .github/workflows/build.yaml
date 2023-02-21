@@ -1,0 +1,21 @@
+# Main Workflow
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+
+env:
+  JAVA_VERSION: 1.15
+
+jobs:
+  my_first_job:
+    name: Hello World
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        env:
+          MY_VAR: Hi there!
+          FIRST_NAME: Java :))
+        run: |
+          echo $MY_VAR $FIRST_NAME is using version $JAVA_VERSION
